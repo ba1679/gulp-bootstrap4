@@ -1,0 +1,16 @@
+.modal-content{
+  font-size: 16px;
+}
+.forgetPassword{
+  color: $light-gray;
+}
+.modal-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+.modal-header{
+  border-top: 4px solid $primary;
+}
+#registerModal .modal-header{
+  border-top: 4px solid $orange;
+}

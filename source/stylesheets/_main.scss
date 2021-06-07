@@ -1,0 +1,46 @@
+// 共用class
+.fz-base-s{
+  font-size: $fz-base-s;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.letter-spacing-2{
+  letter-spacing: 2px;
+}
+.num-font{
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 600;
+}
+.bg-cover{
+  background-position: center;
+  background-size: cover;
+}
+.text-4{
+  font-size: $fz-base *  1.5; //24px
+}
+.border-left-primary{
+  border-left: 3px solid $primary;
+}
+.card-border{
+  border: 0;
+  border-left: 3px solid $primary;
+  padding: 8px 16px;
+}
+.product-pic{
+  border-radius: 2rem;
+  margin-bottom: 24px;
+}
+// 客製樣式
+body{
+  font-size: $fz-base;
+  color: #636057;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.navbar{
+  border-bottom: 5px solid $primary;
+}
+.progress{
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

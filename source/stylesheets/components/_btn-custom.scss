@@ -1,0 +1,16 @@
+.btn{
+  border-radius: 50rem;
+  color: #636057;
+}
+.btn-primary{
+  color: $white;
+}
+.btn-primary:hover{
+  color: $white;
+  border-color: $orange;
+  background-color: $orange;
+}
+.btn-outline-secondary:hover{
+  border-color: $primary;
+  background-color: $primary;
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>六角西餐廳</title>
+  <title>PIN PIN募資網</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -33,104 +33,606 @@
         </li> 
       </ul>
       <form class="form-inline my-2 my-lg-0 ml-auto">
-        <button class="btn btn-primary rounded-pill my-2 mr-2 py-1 px-4 my-sm-0" type="button">登入</button>
-        <button class="btn btn-outline-secondary rounded-pill my-2 py-1 px-4  my-sm-0" type="button">註冊</button>
+        <button class="btn btn-primary my-2 mr-2 py-1 px-4 my-sm-0" type="button" data-toggle="modal" data-target="#loginModal">登入</button>
+        <button class="btn btn-outline-secondary my-2 py-1 px-4  my-sm-0" type="button" data-toggle="modal" data-target="#registerModal">註冊</button>
       </form>
     </div>
     </div>  
   </nav>
-  <div class="container">
-    <a href="#" class="badge badge-secondary">魔法科技</a>
-    <div class="productTitle">
+  <section class="container my-5">
+    <a href="#" class="badge badge-secondary px-2">設計類</a>
+    <div class="h1 font-weight-bold">
       O'in Wine 多功能餐酒袋│輕鬆攜帶酒與酒杯，實現你對戶外品酒的嚮往生活
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-md-7">
         <img src="images/o-in-wine-big.jpg" class="img-fluid product-pic" alt="多功能餐酒袋">
       </div>
       <div class="col-md-5">
-        <div class="text-muted">目標 $600,000</div>
-        <div class="text-4">
+        <div class="text-muted h4">目標 $600,000</div>
+        <div class="h2 num-font"> 
           $280,047
         </div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 41%;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100">41%</div>
         </div>
-        <div class="d-flex justify-content-around num-info">
-          <div>
-            <div class="text-2">
+        <div class="row num-info">
+          <div class="col-6">
+            <div class="h4">
               贊助人數
             </div>
-            <div class="text-4">
-              1374 人
+            <div class="h2">
+              <span class="num-font">1374</span>
+              <span class="text-4">人</span>
             </div>
+            
           </div>
-          <div>
-            <div class="text-2">
+          <div class="col-6">
+            <div class="h4">
               募資倒數
             </div>
-            <div class="text-4">
-              27 天
+            <div class="h2">
+              <span class="num-font">27</span>
+              <span class="text-4">天</span>
             </div>
           </div>
         </div>
-        <span data-toggle="tooltip" data-placement="top" title="優良產品">
-          <i class="fas fa-award"></i>
-        </span>
-        <span data-toggle="tooltip" data-placement="top" title="品質保證">
-          <i class="far fa-thumbs-up"></i>
-        </span>
-        <span data-toggle="tooltip" data-placement="top" title="創意無限">
-          <i class="far fa-lightbulb"></i>
-        </span>
-        <span data-toggle="tooltip" data-placement="top" title="榮登排行">
-          <i class="fas fa-crown"></i>
-        </span>
-        <div class="card">
-          <p>專案募資中！<br>
+          <div class="feature-icon d-flex align-items-center">
+            <i class="fas fa-award mr-lg-3 text-orange custom-tooltip" data-toggle="tooltip" data-placement="top" data-html="true" title="優良產品"></i><span class="d-md-none m-0 h5">優良產品</span> 
+            <i class="far fa-thumbs-up mr-lg-3 text-orange" data-toggle="tooltip" data-placement="top" title="品質保證"></i><span class="d-md-none m-0 h5">品質保證</span>
+            <i class="far fa-lightbulb mr-lg-3 text-orange" data-toggle="tooltip" data-placement="top" title="創意無限"></i><span class="d-md-none m-0 h5">創意無限</span>
+            <i class="fas fa-crown mr-lg-3 text-orange" data-toggle="tooltip" data-placement="top" title="榮登排行"></i>
+            <span class="d-md-none m-0 h5">榮登排行</span>
+          </div>
+        <div class="card my-3 card-border">
+          <p class="mb-0 font-weight-bold">專案募資中！<br>
             在 2021/06/14 23:59 募資結束</p>
         </div>
-        <button type="button" class="btn btn-primary rounded-pill w-100">贊助專案</button>
+        <button type="button" class="btn btn-primary w-100 mb-1">贊助專案</button>
         <div class="d-flex justify-content-around">
-          <button class="btn btn-outline-secondary rounded-pill w-100"><i class="fas fa-heart"></i>追蹤專案</button><button class="btn btn-outline-secondary rounded-pill w-100"><i class="fas fa-share-alt"></i>分享</button>
+          <button class="btn btn-outline-secondary w-100 mr-1"><i class="fas fa-heart mr-1"></i>追蹤專案</button><button class="btn btn-outline-secondary w-100"><i class="fas fa-share-alt mr-1"></i>分享</button>
         </div>
       </div>
     </div>
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">專案介紹</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">常見問答</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">目前進度</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">留言</a>
-        </li>
-      </ul>
-      <div class="row">
-        <div class="col-md-8">
-          <img src="images/o-in-wine-info1.jpg" class="img-fluid" alt="餐酒袋介紹">
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="d-flex">
-              <img class="img-fluid store-pic"  src="images/wine-store.jpg" alt="發起人圖片">
-              <div class="store">
-                <p>Stella Forza 本革九號製所</p>
-                <p>發起 1 個專案</p>
+  </section>
+  <div class="nav-border bg-white py-3 mb-5 sticky-top">
+    <ul class="nav nav-tabs container" id="nav-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link px-2 active" id="intro-tab" data-toggle="tab" href="#intro">專案介紹</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link px-2" id="faq-tab" data-toggle="tab"  href="#faq">常見問答</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link px-2" id="progress-tab" data-toggle="tab"  href="#progress">目前進度</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link px-2" id="message-tab" data-toggle="tab"  href="#message">留言</a>
+      </li>
+    </ul>
+  </div>
+  <section class="container">
+    <div class="row">
+      <!-- 選單內容與pc表單 -->
+      <section class="nav-info col-md-8">
+        <div id="nav-tabContent" class="tab-content">
+          <div class="tab-pane fade show active" id="intro" role="tabpanel">
+            <img src="images/o-in-wine-info2.jpg" class="img-fluid product-pic" alt="餐酒袋介紹">
+            <div class="text-4 font-weight-bold border-left-primary pl-3 mb-1">在不斷觀察台灣人飲酒文化的過程中，我們發現大家嚮往的是一個輕鬆帶酒出門的方法！</div>
+            <p>O'in Wine 多功能餐酒袋，結合可收納全套酒具配備 x 三面開合式的酒杯收納空間，增加攜帶酒與酒杯出門的方便性。為您打造隨時隨地戶外品酒的全新體驗 ！
+              高包覆性防撞泡棉可塞入多種酒，達到防撞及保冷的效果，油蠟帆布與義大利皮革搭配的經典箱包外型，為您的品酒生活帶來更優質的享受~嘖嘖預購方案，享有最低優惠價格！</p>
+              <img src="images/o-in-wine-info1.jpg" class="img-fluid product-pic" alt="餐酒袋介紹">
+              <div class="text-4 font-weight-bold border-left-primary pl-3 mb-1"><span class="h1 mr-1">4</span>種攜帶組合!</div>
+              <p>兩種專用酒杯套組供您選擇，不同場合變換不同使用情境，餐食與酒的完美搭配
+              <br>
+              品酒杯的杯形、容量、杯腹和縮口尺寸，都將影響品飲的香氣和口感，若您是對於品酒十分講究的酒迷們，O'in Wine多功能餐酒袋可攜帶 4入ISO水晶品飲杯，通過 國際標準化組織 所設計的品酒專用杯款，適飲於各式各樣的酒種，展現酒的原始風味。</p>
+          </div>
+          <div class="tab-pane fade" id="faq" role="tabpanel">
+            <div class="accordion mb-2" id="accordion1">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingOne">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq1">
+                      Q1
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
+                      O'in Wine 多功能餐酒袋能容納多大的酒杯、酒瓶？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq1"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion1">
+                  <div class="card-body faq-content">
+                      酒杯尺寸：杯身最大直徑8cm內適用。(酒杯處總長為35cm、隔板厚度為0.6cm）
+                      酒瓶尺寸：任何高32cm、瓶身最大直徑10cm內適用，高彈力泡棉完美包覆各種瓶身
+                      希望不論純享受、專業、業界的酒友們都能輕鬆、無負擔地隨時分享愛酒，不讓體積限制了便利性。
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion mb-2" id="accordion2">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingTwo">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq2">
+                      Q2
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq2" aria-expanded="true" aria-controls="collapseFaq2">
+                      O'in Wine 多功能餐酒袋可以保冷嗎？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq2"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
+                  <div class="card-body faq-content">
+                    可以，冰鎮後11°c的葡萄酒實測溫度變化為...
+                    <ul>
+                      <li>放置室溫1小時後：17.6°c，3小時後：23.1°c</li>
+                      <li>放置O’ in wine 餐酒袋內，1小時後：12.3°c，3小時後：15.2°c</li>
+                    </ul>
+
+                    葡萄酒最佳的保存溫度是在攝氏10-15度，簡易的保溫功能有助於保存美酒的口感。
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion mb-2" id="accordion3">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingThree">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq3">
+                      Q3
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq3" aria-expanded="true" aria-controls="collapseFaq3">
+                      O'in Wine 多功能餐酒袋重量是多少？能裝下多重的物品？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq3"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion3">
+                  <div class="card-body faq-content">
+                    O’ in wine 餐酒袋空袋約重1.7kg。<br>
+                    4入ISO杯重544g，6入聞香杯重750g。<br>
+                    震盪狀態下，實測耐重3000g。
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion mb-2" id="accordion4">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingFour">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq4">
+                      Q4
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq4" aria-expanded="true" aria-controls="collapseFaq4">
+                      怎麼保養？有防潑水嗎？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq4"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion4">
+                  <div class="card-body faq-content">
+                    PU人造皮兩年表面膜就會脫落，但O’ in wine 餐酒袋使用頭層牛皮，稍加細心的照顧就能和你走一輩子。<br>
+
+                    (1)平時請放在通風陰涼處，每個一兩月帶它出門去曬曬太癢，能有效去除皮革內的濕氣。<br>
+                    (2)牛皮及油蠟帆布表面都有經過防潑水處理，沾到水時，請立即用乾布擦乾後風乾即可。（防潑水非防水，勿長時間暴露在雨中或直接浸至水中）<br>
+                    (3)防疫NG行為！清潔時請勿拿酒精直噴會造成皮革變質。<br>
+                    
+                    除了最重要的三點外，如果想了解進階的皮革保養知識，可參考官網的專欄文章：<a href="https://www.stellaforza.com/pages/blog-ch003-1" target="_blank">https://www.stellaforza.com/pages/blog-ch003-1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion mb-2" id="accordion5">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingFive">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq5">
+                      Q5
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq5" aria-expanded="true" aria-controls="collapseFaq5">
+                      O'in Wine 多功能餐酒袋有提供保固嗎？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq5"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq5" class="collapse" aria-labelledby="headingFive" data-parent="#accordion5">
+                  <div class="card-body faq-content">
+                    有的，我們提供五金、車縫、包體結構的保固，除人為不當使用及外力因素等狀況外，皆享有6個月內保固服務。
+                    維修時請附上維修處的照片，聯繫客服信箱：<a href="mailto: info@stellaforza.com">info@stellaforza.com</a>處理。<br>
+                    布面與皮革破損、油汙深層髒汙、浸泡洗滌而成的染色鏽蝕，以上使用痕跡部分無法保固。
+                    保固僅限台灣地區，不包含來回寄送運費。
+                    本革九號製所擁有最終保固、維修的決定權。
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordion6">
+              <div class="card shadow">
+                <div class="card-header bg-white" id="headingSix">
+                  <h2 class="d-flex align-items-center mb-0">
+                    <div class="question-block bg-primary text-white font-weight-bold text-center mr-2 mb-0"  data-toggle="collapse" data-target="#collapseFaq6">
+                      Q6
+                    </div>
+                    <button class="btn btn-link btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapseFaq6" aria-expanded="true" aria-controls="collapseFaq6">
+                      未來會開發其他款式的酒袋嗎？
+                    </button>
+                    <i class="fas fa-chevron-down fa-xs" data-toggle="collapse" data-target="#collapseFaq6"></i>
+                  </h2>
+                </div>
+                <div id="collapseFaq6" class="collapse" aria-labelledby="headingSix" data-parent="#accordion6">
+                  <div class="card-body faq-content">
+                    本革九號製所有開發一系列酒袋，酒友們可到官網：<a href="https://www.stellaforza.com/categories/wine-carrier" target="_blank">https://www.stellaforza.com/categories/wine-carrier</a> 逛逛。
+                    若O’ in wine 餐酒袋募資順利，我們就能累積更大的能量來開發不同顏色的材料、升級能放多支酒的設計。
+                    希望大家能多多推廣，讓台灣品酒文化有更多發展的可能。
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="progress" role="tabpanel">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-4">
+                  <div class="card-img progress-bg bg-cover img-fluid h-100"></div>
+                </div>                   
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">早鳥優惠限時加開至6/11</h5>
+                    <div class="post-time num-font">2021-6-20</div>
+                    <p class="card-text progress-content d-none d-md-block">非常謝謝各位贊助者對 O'in Wine多功能餐酒袋 第一時間的支持！團隊經過徹夜的討論後在此宣布《凡贊助早鳥方案贊助者，加送皮革酒標禮盒》！</p>
+                    <a href="#" class="text-orange num-font">MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-4">
+                  <div class="card-img progress-bg bg-cover img-fluid h-100"></div>
+                </div>                   
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">早鳥優惠限時加開至6/11</h5>
+                    <div class="post-time num-font">2021-6-20</div>
+                    <p class="card-text progress-content d-none d-md-block">非常謝謝各位贊助者對 O'in Wine多功能餐酒袋 第一時間的支持！團隊經過徹夜的討論後在此宣布《凡贊助早鳥方案贊助者，加送皮革酒標禮盒》！</p>
+                    <a href="#" class="text-orange num-font">MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-4">
+                  <div class="card-img progress-bg bg-cover img-fluid h-100"></div>
+                </div>                   
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">早鳥優惠限時加開至6/11</h5>
+                    <div class="post-time num-font">2021-6-20</div>
+                    <p class="card-text progress-content d-none d-md-block">非常謝謝各位贊助者對 O'in Wine多功能餐酒袋 第一時間的支持！團隊經過徹夜的討論後在此宣布《凡贊助早鳥方案贊助者，加送皮革酒標禮盒》！</p>
+                    <a href="#" class="text-orange num-font">MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="message" role="tabpanel">
+            <div class="message-card card card-border p-0 d-none d-lg-block">
+              <div class="card-body">
+                只有本專案的贊助者才可以留言哦，如果有任何專案相關的問題，歡迎<span class="text-orange">聯絡提案人</span>！
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body p-2">
+                <div class="media">
+                  <img src="images/message-pic1.jpg" class="mr-3 message-pic rounded-pill" alt="留言者照片">
+                  <div class="media-body">
+                    <h5 class="message-name mt-0 letter-spacing-2">王小明</h5>
+                    <small class="message-time letter-spacing-2">2020年5月22日 11:32</small>
+                  </div>
+                </div>
+                <p class="message-content my-2">
+                  您好，請問在裝兩支酒的狀況下還有辦法收納杯子嗎?
+                </p>
+                <div class="message-res p-2 rounded">
+                  <div class="fz-base-s text-orange">提案者回覆</div>
+                  <p class="mb-0">謝謝您的提問，無法同時2隻酒＋杯子呢。 但可以放兩支酒、或是1酒＋6杯。</p>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-lg-4 mt-2">
+              <div class="card-body p-2">
+                <div class="media">
+                  <img src="images/message-pic2.jpg" class="mr-3 message-pic rounded-pill" alt="留言者照片">
+                  <div class="media-body">
+                    <h5 class="message-name mt-0 letter-spacing-2">陳阿美</h5>
+                    <small class="message-time letter-spacing-2">2020年5月23日 12:00</small>
+                  </div>
+                </div>
+                <p class="message-content my-2">
+                  建議把4種攜帶組合的三號圖片換一下，這會讓人誤會可以裝兩隻酒再加上杯子
+                </p>
+                <div class="message-res p-2 rounded">
+                  <div class="fz-base-s text-orange">提案者回覆</div>
+                  <p class="mb-0">謝謝您的建議，我們會作參考。</p>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-lg-4 mt-2">
+              <div class="card-body p-2">
+                <div class="media">
+                  <img src="images/message-pic3.jpg" class="mr-3 message-pic rounded-pill" alt="留言者照片">
+                  <div class="media-body">
+                    <h5 class="message-name mt-0 letter-spacing-2">盧小眾</h5>
+                    <small class="message-time letter-spacing-2">2021年4月12日 11:40</small>
+                  </div>
+                </div>
+                <p class="message-content my-2">
+                  收到貨了，很滿意!
+                </p>
               </div>
             </div>
           </div>
         </div>
+          <!-- pc版表單 -->
+          <div class="d-none d-md-block my-5">
+            <div class="text-center">
+              <i class="fas fa-hand-holding-heart text-primary fa-3x"></i>
+            </div>
+            <div class="form-title text-center font-weight-bold mb-3">
+              贊助專案
+            </div>
+            <form class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="projectName">贊助方案 <span class="text-danger">*</span></label>
+                <select name="project" id="projectName" class="custom-select" placeholder="請選擇一個方案">
+                  <option value="一人獨享 / 51折">一人獨享 / 51折</option>
+                  <option value="麻吉同享 / 5折">麻吉同享 / 5折</option>
+                  <option value="酒杯加購 / 贊助者加購限定">酒杯加購 / 贊助者加購限定</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="sponserName">收件人姓名 <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="sponserName" required>
+                <div class="invalid-feedback">
+                  <i class="fas fa-exclamation-circle mr-1"></i>請輸入姓名
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="sponserTel">連絡電話 <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="sponserTel" required>
+                <div class="invalid-feedback">
+                  <i class="fas fa-exclamation-circle mr-1"></i>請輸入電話
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="sponserEmail">連絡Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="sponserEmail" required>
+                <div class="invalid-feedback">
+                  <i class="fas fa-exclamation-circle mr-1"></i>請輸入Email
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="payment">付款方式 <span class="text-danger">*</span></label>
+                <select name="payment" id="payment" class="custom-select" placeholder="請選擇付款方式">
+                  <option value="信用卡">信用卡</option>
+                  <option value="Web ATM">Web ATM</option>
+                  <option value="超商付款">超商付款</option>
+                </select>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-primary px-5" type="submit">贊助專案</button>
+              </div>
+            </form>
+          </div>
+      </section>
+      <!-- 右側專案項目介紹 -->
+      <section class="project col-md-4 mb-lg-5 mt-md-0 mt-4">
+        <div class="card p-2 mb-4">
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="img-fluid store-pic"  src="images/wine-store.jpg" alt="發起人圖片">
+            <div class="store ml-2">
+              <p class="m-0 font-weight-600">Stella Forza 本革九號製所</p>
+              <p class="p-0">發起 1 個專案</p>
+            </div>
+          </div>
+          <p class="my-2">累積了20年的工藝技術與設計經驗，2016年創立Stella Forza，致力於挖掘小眾設計師，提供開發製造的平台，共同打造出獨一無二的台灣時尚品牌。</p>
+          <div class="d-flex align-items-center">
+              <a href="#" class="mr-1"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <button type="button" class="btn btn-outline-secondary btn-sm ml-auto"><i class="far fa-comment-dots mr-1"></i>聯絡我們</button>
+          </div>
+        </div>
+          <div class="bg-white-gray method-title text-center">
+            選擇一個方案來支持
+          </div>
+          <div class="card mt-2">
+            <img class="card-img-top" src="images/wine-project1.jpg" alt="贊助方案一">
+            <div class="card-body">
+              <div class="d-flex justify-content-between sale-time">
+                <div class="h4 text-secondary">限時優惠</div>
+                <div class="h4 text-secondary num-font">2 days 20:05:20</div>
+              </div>
+              <div class="font-weight-bold project-title">
+                買一送一，只有兩百組別錯過 <br>
+                <span class="num-font font-weight-bold">NT$ 1600</span>
+              </div>
+              <span class="badge badge-sponsored">已被贊助88次</span>
+              <span class="badge badge-limited">限量<span class="text-warning"> 200</span> 個</span>
+              <div class="mt-1">方案內容：</div> 
+              <ul>
+                <li>O'in Wine 多功能餐酒袋 x1</li>
+                <li>海馬刀開瓶器x1、酒塞x1、酒杯擦拭布x1</li>
+                <li>超值贈禮：客製化燙金吊飾x1、皮革酒標禮盒x1</li>
+              </ul>
+              <div class="btn btn-primary w-100">贊助此專案</div>
+            </div>
+          </div>
+          <div class="card mt-2"> 
+            <img class="card-img-top" src="images/wine-project2.jpg" alt="贊助方案一">
+            <div class="card-body">
+              <div class="d-flex justify-content-between sale-time">
+                <div class="h4 text-secondary">限時優惠</div>
+                <div class="h4 text-secondary">2 days 20:05:20</div>
+              </div>
+              <div class="font-weight-bold project-title">
+                一人獨享 <br>
+                <span class="num-font font-weight-bold">NT$ 4500</span>
+              </div>
+              <span class="badge badge-sponsored">已被贊助88次</span>
+              <span class="badge badge-limited">限量<span class="text-warning"> 200 </span>個</span>
+              <div class="mt-1">方案內容：</div> 
+              <ul>
+                <li>O'in Wine 多功能餐酒袋 x2</li>
+                <li>海馬刀開瓶器x2、酒塞x2、酒杯擦拭布x2</li>
+                <li>超值贈禮：客製化燙金吊飾x2、皮革酒標禮盒x2</li>
+              </ul>
+              <div class="btn btn-primary w-100">贊助此專案</div>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <img class="card-img-top" src="images/wine-project3.jpg" alt="贊助方案一">
+            <div class="card-body">
+              <div class="d-flex justify-content-between sale-time">
+                <div class="h4 text-secondary">限時優惠</div>
+                <div class="h4 text-secondary">2 days 20:05:20</div>
+              </div>
+              <div class="font-weight-bold project-title">
+               酒杯加購 / 贊助者加購限定 <br>
+                <span class="num-font font-weight-bold">NT$ 699</span>
+              </div>
+              <span class="badge badge-sponsored">已被贊助88次</span>
+              <span class="badge badge-limited">限量<span class="text-warning"> 200 </span>個</span>
+              <div class="mt-1">方案內容：</div> 
+              <ul>
+                <li>ISO品飲杯6入組 / 聞香杯4入組 （擇一）</li>
+              </ul>
+              <div class="btn btn-primary w-100">贊助此專案</div>
+            </div>
+          </div>
+      </section>
+      <!-- mobile表單 -->
+      <div class="container d-md-none mt-4 mb-5" id="mobile-form">
+        <div class="text-center">
+          <i class="fas fa-hand-holding-heart text-primary fa-3x"></i>
+        </div>
+        <div class="form-title text-center font-weight-bold mb-3">
+          贊助專案
+        </div>
+        <form class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="projectName">贊助方案 <span class="text-danger">*</span></label>
+            <select name="project" id="projectName" class="custom-select" placeholder="請選擇一個方案">
+              <option value="一人獨享 / 51折">一人獨享 / 51折</option>
+              <option value="麻吉同享 / 5折">麻吉同享 / 5折</option>
+              <option value="酒杯加購 / 贊助者加購限定">酒杯加購 / 贊助者加購限定</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sponserName">收件人姓名 <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="sponserName" required>
+            <div class="invalid-feedback">
+              <i class="fas fa-exclamation-circle mr-1"></i>請輸入姓名
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="sponserTel">連絡電話 <span class="text-danger">*</span></label>
+            <input type="tel" class="form-control" id="sponserTel" required>
+            <div class="invalid-feedback">
+              <i class="fas fa-exclamation-circle mr-1"></i>請輸入電話
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="sponserEmail">連絡Email <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="sponserEmail" required>
+            <div class="invalid-feedback">
+              <i class="fas fa-exclamation-circle mr-1"></i>請輸入Email
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="payment">付款方式 <span class="text-danger">*</span></label>
+            <select name="payment" id="payment" class="custom-select" placeholder="請選擇付款方式">
+              <option value="信用卡">信用卡</option>
+              <option value="Web ATM">Web ATM</option>
+              <option value="超商付款">超商付款</option>
+            </select>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary px-5" type="submit">贊助專案</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-4">
+    <div class="text-center">Copyright &copy; PIN PIN All rights reserved.</div>
+  </footer>
+  <a href="#mobile-form" class="d-md-none bg-primary text-white font-weight-bold text-center d-block fixed-bottom py-2">贊助專案</a>
+  <!-- 登入Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">登入</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="account" class="col-form-label">帳號</label>
+              <input type="text" class="form-control" id="account">
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-form-label">密碼</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <a href="#" class="forgetPassword">忘記密碼?</a>
+          </form>
+        </div>
+        <div class="modal-footer border-0 mb-5 py-0">
+          <button type="button" class="btn btn-primary btn-block">登入</button>
+        </div>
+        <div class="register-link text-center mb-4">
+          還沒有帳號? <a href="#" class="text-orange" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">註冊一個帳號</a>
+        </div>
       </div>
     </div>
   </div>
-  
-
+  <!-- 註冊Modal -->
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">註冊</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="account" class="col-form-label">帳號</label>
+              <input type="text" class="form-control" id="account">
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-form-label">密碼</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 mb-5 py-0">
+          <button type="button" class="btn btn-orange text-white btn-block">註冊</button>
+        </div>
+        <div class="register-link text-center mb-4">
+          已經有帳號? <a href="#" class="text-primary" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">切換登入頁面</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="/javascripts/vendor.js"></script>
   <script src="js/all.js"></script>
 </body>
