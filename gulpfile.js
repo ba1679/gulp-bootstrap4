@@ -87,14 +87,14 @@ gulp.task('deploy', function () {
     .pipe($.ghPages());
 });
 
-// gulp.task('sequence', gulpSequence('clean', 'copy', 'sass', 'vendorJs', 'sass'));
+gulp.task('sequence', gulpSequence('clean', 'copy', 'sass', 'vendorJs', 'sass'));
 
-// gulp.task('default', ['copy', 'sass', 'vendorJs', 'browserSync', 'watch']);
+gulp.task('default', ['copy', 'sass', 'vendorJs', 'browserSync', 'watch']);
 
-// // gulp.task('build', ['sequence'])
-gulp.task(
-  'default',
-  gulp.series('copy', 'sass', 'vendorJs', 'browserSync', 'watch')
-);
+gulp.task('build', ['sequence'])
+// gulp.task(
+//   'default',
+//   gulp.series('copy', 'sass', 'vendorJs', 'browserSync', 'watch')
+// );
 
-gulp.task('build', gulp.series('clean', 'copy', 'sass', 'vendorJs', 'sass'));
+// gulp.task('build', gulp.series('clean', 'copy', 'sass', 'vendorJs', 'sass'));
